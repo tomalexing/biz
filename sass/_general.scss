@@ -1,0 +1,56 @@
+﻿/*------------------------------------------------------------------
+    General styles
+-------------------------------------------------------------------*/
+
+a {
+    outline: none !important;
+    @include transition(0.3s ease);
+}
+a:hover,
+a:active,
+a:focus {
+    color: inherit; 
+    outline: none !important;
+    text-decoration: none;
+}
+
+
+.nomargin {
+    margin: 0 !important;
+}
+.nomargin-right {
+    margin-right: 0 !important;
+}
+.nomargin-left {
+    margin-left: 0 !important;
+}
+.nomargin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.nopadding{
+    padding:0 !important;
+}
+
+.nopadding-right{
+    padding-right: 0 !important;
+}
+
+.nopadding-left {
+    padding-left: 0 !important;
+}
+
+.nopadding-bottom {
+    padding-bottom: 0 !important;
+}
+
+.line-lg {
+    margin: 10px 0;
+    span {
+        display:block;
+        width: 40px;
+        height: 3px;
+        margin:0;
+        background-color: #8AB8EF;
+    }
+}

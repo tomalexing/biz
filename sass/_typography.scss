@@ -1,0 +1,51 @@
+﻿/*------------------------------------------------------------------
+
+[Typography]
+
+Body copy:              15px/1.5em 'Raleway', sans-serif;
+Main menu:              0.85em/.82em;
+Input, textarea:        1em/1.5em;
+
+Numerals and All h1(2,3,4,5): font-family:'Lato', sans-serif;
+
+-------------------------------------------------------------------*/
+
+body {
+    font: 15px/1.5em 'Open Sans', sans-serif;
+}
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 {
+//     font-family:'Lato', sans-serif;
+// }
+
+
+h1 {
+    color: $whiteColor;
+    font-size: 8em; // 120px
+}
+h2 {
+    font-size: 3.333em; // 50px
+}
+h3 {
+    font-size: 2.533em; // 38px
+}
+h4 {
+    font-size: 2em; // 30px
+}
+h5 {
+    font-size: 1.267em; // 19px
+}
+
+.section__title {
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #0E4471;
+    letter-spacing: 2.5px;
+    text-align: left;
+}

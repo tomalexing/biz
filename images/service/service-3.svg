@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-3" sketch:type="MSArtboardGroup">
+            <g id="lightbulb" sketch:type="MSLayerGroup" transform="translate(24.000000, 24.000000)">
+                <rect id="cont" opacity="0" fill="#181818" sketch:type="MSShapeGroup" x="0" y="0" width="72" height="72"></rect>
+                <path d="M45.8181818,45.2499344 L45.8181818,55.4773601 C45.8181818,56.468914 45.0118046,57.2727273 44.02353,57.2727273 L27.97647,57.2727273 C26.9853112,57.2727273 26.1818182,56.4647874 26.1818182,55.4773601 L26.1818182,45.2499344 C18.4419905,41.5731433 13.0909091,33.6842049 13.0909091,24.5454545 C13.0909091,11.893113 23.3476585,1.63636364 36,1.63636364 C48.6523415,1.63636364 58.9090909,11.893113 58.9090909,24.5454545 C58.9090909,33.6842049 53.5580095,41.5731433 45.8181818,45.2499344 Z" id="Rectangle-104" stroke="#0A76E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <path d="M36,8.18181818 C26.9626132,8.18181818 19.6363636,15.5080677 19.6363636,24.5454545" id="Oval-42" stroke="#0A76E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-105-Copy" stroke="#0A76E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="26.1818182" y="57.2727273" width="19.6363636" height="6.54545455" rx="1.8"></rect>
+                <path d="M31.0909091,65.4545455 C31.0909091,68.1657615 33.288784,70.3636364 36,70.3636364 L36,70.3636364 C38.711216,70.3636364 40.9090909,68.1657615 40.9090909,65.4545455" id="Oval-42" stroke="#0A76E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

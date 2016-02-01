@@ -1,0 +1,109 @@
+﻿
+/*------------------------------------------------------------------
+
+Project:        Profi Html Template
+Version:        1.0
+Last change:    04/01/16
+Author:         Ion Digital 
+
+-------------------------------------------------------------------*/
+
+// mixin library for Sass
+// http://bourbon.io/docs/
+@import "../bourbon/bourbon";
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+	2. Header / .home-page or .home-page.other-pages
+		- Navigation / .navbar
+	3. Home Landing 
+		- Main Section / section.main-section
+			- parralax, video, scale / .bg-effect
+			- title / .main-section-title
+		- all section
+			- parralax, video, scale / .bg-effect
+			- h2.section-title
+			- p.section-description
+			- content
+	5. blog Page
+		- Main Section / section.main-section
+			- parralax, video, scale / .bg-effect
+			- title / .main-section-title
+		- content / .content
+			- article
+				- image / .news-img-block
+				- description / .news-description-block
+			-pagination / .pagination-block
+
+		- sidebar / #sidebar 
+			- Categories
+			- Recent Posts
+			- Popular Tags
+	5. Footer / #footer
+		- contacts
+		- services
+		- map
+-------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------------
+	base styles
+-------------------------------------------------------------------*/
+@import "_colors.scss";
+@import "_typography.scss";
+@import "_main.scss";
+@import "_general.scss";
+@import "_buttons.scss";
+@import "_waves.scss";
+@import "_forms.scss";
+
+/*------------------------------------------------------------------
+	general layouts
+-------------------------------------------------------------------*/
+@import "_preloader.scss";
+@import "_layouts.scss";
+
+/*------------------------------------------------------------------
+	header
+-------------------------------------------------------------------*/
+@import "_mainmenu.scss";
+
+
+/*------------------------------------------------------------------
+	landing sections
+-------------------------------------------------------------------*/
+@import "_main-block.scss";
+@import "_about-block.scss";
+@import "_gallery-block.scss";
+@import "_services-block.scss";
+@import "_customers-block.scss";
+
+
+/*------------------------------------------------------------------
+	footer
+-------------------------------------------------------------------*/
+@import "_footer.scss";
+
+
+/*------------------------------------------------------------------
+	responsive
+-------------------------------------------------------------------*/
+@import "_non-responsive";
+
+
+
+
+
+
+
+
+
+
+
+

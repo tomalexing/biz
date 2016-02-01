@@ -1,0 +1,108 @@
+﻿
+/*------------------------------------------------------------------
+    Main header menu styles
+-------------------------------------------------------------------*/
+
+.main-menu {
+    position:fixed;
+    top: 50px;
+    left: 0;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    border-radius:0;
+    @include transition(0.5s);
+    .main-logo {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        display: block;
+        @include transform(translateY(-50%));
+        svg {
+            width: auto;
+            height: auto;
+            max-height: 65px;
+            max-width: 280px;
+        }
+        img {
+            width: auto;
+            height: auto;
+            max-height: 65px;
+            max-width: 280px;
+        }
+    }
+    .navbar-nav {
+        float: right;
+        width: auto;
+        padding:20px 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #2F2E2F;
+        @include transition(0.5s);
+        > li {
+            float: none;
+            display: inline-block;
+            height: 100%;
+            margin: 0;
+            padding: 10px 12px;
+            vertical-align: middle;
+            border-radius:3px;
+            a {
+                padding: 0;
+                color: $whiteColor;
+                font-size: 13px;
+                font-weight: 400;
+                line-height:.82em;
+                letter-spacing: 1.3px;
+                &:hover,
+                &:focus {
+                    background-color: transparent;
+                    color: #65C2FF;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+        > li.active > a {
+            color: #65C2FF;
+        }
+    }
+    
+    // scroll fixed menu
+    &.navbar-fixed {
+        top: 0;
+        border: 0;
+        background-color: #014D8F;
+        box-shadow:1px 2px 5px rgba(0,0,0,.2);
+        @include backface-visibility(hidden);
+        .navbar-nav {
+            float: right;
+            width: auto;
+            margin-top:0;
+            padding:20px 40px;
+            text-align: center;
+            border: 0 !important;
+            background-color: #014D8F;
+            > li {
+                width: auto;
+                padding: 7px 12px;
+                line-height: 1;
+                border-radius:3px;
+                > a {
+                    display: inline-block;
+                    padding: 0;
+                    text-shadow: none;
+                    @include transition(0.5s ease);
+                    &:hover {
+                        color: #65C2FF;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

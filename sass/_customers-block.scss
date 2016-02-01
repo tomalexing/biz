@@ -1,0 +1,26 @@
+﻿
+/*------------------------------------------------------------------
+    Customers section styles
+-------------------------------------------------------------------*/
+
+.customers__block {
+	padding: 40px 0;
+	@include linear-gradient(#44AFFC, #0264D7);
+	.section__title {
+		color: #fff;
+	}
+    .customers__block__list {
+    	@include clearfix;
+    	text-align:left;
+        .customers__block__list__item {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 62px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+            img {
+            	display: block;
+            }
+        }	
+    }
+}

@@ -1,0 +1,118 @@
+﻿/*------------------------------------------------------------------
+    buttons styles
+-------------------------------------------------------------------*/
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline:none !important;
+}
+
+.btn {
+    padding: 0 20px;
+    color: #0E4471;
+    font-size: 20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border:none;
+    border-radius: 0;
+    cursor:pointer;
+    @include transition(.5s);
+    i.icon {
+            @include transform(translateX(0));
+            @include transition(.5s);
+        }
+    &:hover {
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+        i.icon {
+            @include transform(translateX(20%));
+        }
+    }
+}
+.btn-primary {
+    color: #0E4471;
+    background-color:#fff;
+    i.icon {
+        position: relative;
+        top: 2px;
+        display: inline-block;
+        margin-left: 30px;
+        svg {
+            display: block;
+            width: 28px;
+            height: 21px;
+        }
+    }
+    &.btn-sm {
+
+    }
+    &:hover,
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &:focus {  
+        color: #0E4471;
+        background-color: $whiteColor;
+        box-shadow: 0 5px 11px 0 rgba(0,0,0,0.3),0 4px 15px 0 rgba(0,0,0,0.3);
+    }
+    &.inverse-btn {
+        
+        &:hover,
+        &:active,
+        &:active:hover,
+        &:active:focus,
+        &:focus {
+        
+        } 
+    }
+}
+
+.btn-success {
+    color: #fff;
+    font-size: 16px;
+    line-height: 48px;
+    background-color: #0264D7;
+    i.icon {
+        position: relative;
+        top: 5px;
+        display: inline-block;
+        margin-left: 20px;
+        svg {
+            display: block;
+            width: 28px;
+            height: 21px;
+            path {
+                fill: #fff;
+            }
+        }
+    }
+    &.btn-sm {
+        
+    }
+    &:hover,
+    &:active,
+    &:active:hover,
+    &:active:focus,
+    &:focus {
+        opacity: 1;
+        background-color: #2486F9;
+        color: $whiteColor;
+    }
+
+    &.inverse-btn {
+        // color: $whiteColor;
+        // background-color: $defaultThemeColor;
+        &:hover,
+        &:active,
+        &:active:hover,
+        &:active:focus,
+        &:focus {
+            // color: $defaultThemeColor;
+            // background-color: transparent;
+        } 
+    }
+}

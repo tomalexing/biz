@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-3" sketch:type="MSArtboardGroup">
+            <g id="printer" sketch:type="MSLayerGroup" transform="translate(25.000000, 25.000000)">
+                <rect id="cont" opacity="0" fill="#181818" sketch:type="MSShapeGroup" x="0" y="0" width="70" height="70"></rect>
+                <path d="M55.6818182,52.5 L63.233061,52.5 C64.3257641,52.5 65.2272727,51.6088811 65.2272727,50.5096302 L65.2272727,24.6793953 C65.2272727,22.4721577 63.4356581,20.6818182 61.2255895,20.6818182 L8.77441046,20.6818182 C6.56560993,20.6818182 4.77272727,22.4715944 4.77272727,24.6793953 L4.77272727,50.5096302 C4.77272727,51.5989972 5.66556629,52.5 6.76693904,52.5 L14.3181818,52.5 L14.3181818,46.5416117 C14.3181818,45.4391645 15.2205882,44.5454545 16.313236,44.5454545 L53.686764,44.5454545 C54.788602,44.5454545 55.6818182,45.4461575 55.6818182,46.5416117 L55.6818182,52.5 Z" id="Rectangle-39" stroke="#0A76E8" stroke-width="2" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-39-Copy" stroke="#0A76E8" stroke-width="2" sketch:type="MSShapeGroup" x="14.3181818" y="7.95454545" width="41.3636364" height="12.7272727"></rect>
+                <rect id="Rectangle-39-Copy-3" stroke="#0A76E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" x="14.3181818" y="44.5454545" width="41.3636364" height="19.0909091"></rect>
+                <circle id="Oval-38" stroke="#0A76E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" cx="52.5" cy="30.2272727" r="3.18181818"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

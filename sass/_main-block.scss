@@ -1,0 +1,53 @@
+﻿
+/*------------------------------------------------------------------
+    Main Section styles
+-------------------------------------------------------------------*/
+
+.main__block {
+    height: 800px;
+    .main__block__bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 800px;
+        background-image: url("../images/main-bg.jpg");
+        background-position: center;
+        background-size: cover;
+        &:after {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 50%;
+            left:0;
+            top: 0;
+            opacity: 0.8;
+            @include linear-gradient(#44AFFC, #0264D7);
+        }
+    }
+    .container {
+        position: relative;
+        height: 100%;
+    }
+    .main__block__wrap {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        width: 100%;
+        color: $whiteColor;
+        @include transform(translateY(-50%));
+        .main__block__wrap__title {
+            max-width: 50%;
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .main__block__wrap__subtitle {
+            max-width: 50%;
+            font-size: 36px;
+            line-height: 55px;
+            font-weight: 300;
+            margin-bottom: 50px;
+        }
+    }
+}
